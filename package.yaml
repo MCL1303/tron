@@ -21,6 +21,7 @@ executable:
     - -with-rtsopts=-N
   dependencies:
     - Tron
+    - gloss
 
 tests:
   Tron-test:
