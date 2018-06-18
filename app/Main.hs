@@ -1,7 +1,6 @@
 module Main where
 
-
-import Graphics.Gloss.Interface.Pure.Game
+import           Graphics.Gloss.Interface.Pure.Game
 
 main :: IO ()
 main =
@@ -14,5 +13,5 @@ main =
     renderWorld _ = blank
     handleWorld _ w = w
     updateWorld _ w = w
-    winSize = ( 800, 800 )
-    winOffset = ( 100, 100 )
+    winSize = (800, 800)
+    winOffset = (100, 100)
